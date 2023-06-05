@@ -1,0 +1,36 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  --white: hsla(0, 0%, 100%, 1);
+  --azul: #2c70ba;
+  --yinmn-blue: hsla(219, 43%, 38%, 1);
+  --english-violet: hsla(259, 24%, 28%, 1);
+}
+
+.navbar{
+  background: var(--azul);
+}
+
+.efecto{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.item-link{
+  text-decoration: none;
+  color: var(--english-violet);
+  font-weight: 600;
+}
+
+.item-link:hover{
+  border-bottom: 5px solid #2c3e50;
+  font-weight: 700;
+
+}
+
+.info {
+  background: var(--azul);
+}
+
